@@ -6,7 +6,7 @@ import {useSelector} from 'react-redux';
 import {useNavigate} from 'react-router-dom';
 export default function CreateListing() {
 
-    const {currentUser} = useSelector(state => state.user);
+    const {currentUser} = useSelector((state) => state.user);
     const navigate = useNavigate();
     const [files,setFiles] = useState([]);
     const [formData,setFormData] = useState({
@@ -136,7 +136,7 @@ export default function CreateListing() {
                 setError(data.message);
 
             }
-            navigate(`/listing/${data._id}`)
+            navigate(`/listing/${data._id}`);
         } catch (error) {
            setError(error.message); 
            setLoading(false);
@@ -315,8 +315,8 @@ export default function CreateListing() {
             </div>
 
             <div className='flex flex-col flex-1 gap-4'>
-                <p className='font-semibold'>I
-                mages:
+                <p className='font-semibold'>
+                Images:
                 <span className='font-normal text-gray-600 ml-2'>
                     The first image will be the cover (max 6)
                 </span>
