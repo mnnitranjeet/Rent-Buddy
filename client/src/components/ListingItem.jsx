@@ -8,7 +8,7 @@ export default function ListingItem({ listing }) {
         <img
           src={
             listing.imageUrls[0] ||
-            'https://www.google.com/imgres?q=estate&imgurl=https%3A%2F%2Flirp.cdn-website.com%2Fbf4fe880%2Fdms3rep%2Fmulti%2Fopt%2Festate%2Bvs%2Ba%2Bhouse%2B-%2BRanger%2BRidge-640w.jpeg&imgrefurl=https%3A%2F%2Fwww.rangerridge.com%2Fblog%2Fhouse-vs-estate-what-sets-them-apart&docid=2egu3nOrnHwZ4M&tbnid=cD92wwCZITAmVM&vet=12ahUKEwiJ9emho7yGAxWST2wGHQGKBywQM3oECDYQAA..i&w=640&h=427&hcb=2&ved=2ahUKEwiJ9emho7yGAxWST2wGHQGKBywQM3oECDYQAA'
+            'https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/Sales_Blog/real-estate-business-compressor.jpg?width=595&height=400&name=real-estate-business-compressor.jpg'
           }
           alt='listing cover'
           className='h-[320px] sm:h-[220px] w-full object-cover hover:scale-105 transition-scale duration-300'
